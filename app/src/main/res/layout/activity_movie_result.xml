@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background_material_dark">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_material_dark">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/box"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:id="@+id/poster"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_material_dark"
+    android:textColor="@color/abc_primary_text_material_dark"
+    android:id="@+id/movietitle"
+    android:textSize="20sp"
+    android:textStyle="bold"
+/>
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="@android:color/holo_red_dark"
+    ></View>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_material_dark"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:id="@+id/rating"
+            android:textSize="20sp"
+/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_material_dark"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:id="@+id/released"
+            android:textSize="20sp"
+/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_material_dark"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:id="@+id/movietype"
+            android:textSize="20sp"
+/>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_material_dark"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:id="@+id/language"
+            android:textSize="20sp"
+/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/description"
+        android:background="@drawable/box"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/actor"
+        android:background="@drawable/box"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/genre"
+        android:background="@drawable/box"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/awards"
+        android:background="@drawable/box"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="20sp"
+        />
+
+
+    <Button
+        android:id="@+id/openlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open imdb in browser"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:background="@drawable/buttonshape"
+        android:textSize="23sp"
+        android:paddingBottom="10dp"
+        android:textColorHighlight="@color/highlighted_text_material_light"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+</LinearLayout>
+</ScrollView>
